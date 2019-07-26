@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ToDO </title>
+    <title>ToDo </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
 </head>
 <body>
-    <h1>ToDo App</h1>
+    <div id="container">
+        <div id="top">
+            <button id="newTodoButton">
+            <div id="contents">
+                <h1>Add new ToDo</h1><i class="topIcon icon ion-md-add-circle"></i>
+            </div>
+        </button>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <p class="itemText">some text</p>
+                
+                <i class="itemIcon icon ion-md-close-circle"></i>
+                
+            </div>
+            
+            <div class="item">
+                <p class="itemText">other text</p>
+                
+                <i class="itemIcon icon ion-md-close-circle"></i>
+                
+            </div>
+            
+            <div class="item">
+                <p class="itemText">some more text</p>
+                
+                <i class="itemIcon icon ion-md-close-circle"></i>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,110 @@
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background: #4CA1AF;
+    /* fallback for old browsers */
+
+    background: linear-gradient(120deg, rgb(170, 202, 206), #4CA1AF);
+
+    font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+
+}
+
+button {
+    border-radius: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+p {
+    margin: 0;
+    padding: 15px 0;
+    display: inline;
+    padding-left: 5%
+}
+
+#container {
+    background-color: #CFD8DC;
+    width: 50%;
+    height: 92%;
+    margin: 3% auto;
+
+    border-radius: 1%;
+    box-shadow: 11px 21px 13px -7px rgb(59, 98, 104);
+}
+
+#contents {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #607D8B;
+    color: #FFFFFF;
+    padding: 15px 0;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.topIcon {
+    display: inline;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.item-container {
+    color: #212121;
+    
+    font-size: 1.3em;
+
+}
+
+.item {
+    display: flex;
+    
+    margin: auto;
+    
+}
+
+
+.itemText {
+    width: 90%
+}
+
+.itemIcon {
+
+    vertical-align: bottom;
+    padding-right: 5%;
+    font-size: 1.3em;
+    text-align: center;
+    margin: auto;
+
+}
+
+.itemIcon:hover {
+    color: #FF5722;
+}
+
+.done {
+    color: #757575;
+    text-decoration: line-through;
+    background-color: rgb(217, 222, 224);
+}
+
+hr {
+    height: 1px;
+    border: none;
+    color: #000;
+    background-color: #000;
+    margin: 0;
+width: 90%;
+margin: auto;
+}
+
